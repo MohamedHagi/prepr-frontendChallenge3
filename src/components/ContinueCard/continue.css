@@ -1,0 +1,117 @@
+.card.cstm-card .cardheader {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  justify-items: center;
+  flex: 1;
+  border-bottom: 2px solid #d6d6d6;
+}
+
+@media (max-width: 992px) {
+  .card.cstm-card .cardheader .c-heading {
+    padding: 12px 10px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .card.cstm-card .cardheader .c-heading {
+    font-size: 15px;
+  }
+}
+
+.continue-card #dataNotAvail,
+.continue-card #dataAvail {
+  max-height: 100%;
+  padding: 16px 16px 32px;
+}
+.card.cstm-card.continue-card .cardheader {
+  border-bottom: none;
+  padding: 16px 16px 0;
+}
+.card.cstm-card.continue-card .c-heading {
+  color: #101223;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0;
+}
+.visited-chart {
+  height: 160px;
+  width: 160px;
+}
+.card.cstm-card.continue-card .cardheader {
+  flex-grow: 0;
+}
+.card.cstm-card.continue-card {
+  height: calc(100% - 20px);
+}
+.placeholder-image {
+  display: block;
+  margin: auto auto 24px;
+  max-height: 128px;
+  max-width: 128px;
+  object-fit: contain;
+}
+
+.visited-chart {
+  position: relative;
+}
+#circleValue {
+  font-size: 20px;
+  font-weight: 400;
+  height: fit-content;
+  inset: 0;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+}
+#dataAvail {
+  display: none;
+}
+#dataNotAvail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#dataNotAvail .placeholder-image {
+  transform: translateX(16px);
+}
+.challenge-asset #circleValue {
+  color: #13a859;
+}
+#circleValue {
+  width: 8ch;
+  line-height: 1;
+}
+.continue-card .chartRow {
+  flex-direction: row;
+  gap: 45px;
+  margin: 0;
+}
+.continue-card .chartRow > div:last-child {
+  flex-grow: 1;
+  width: 200px;
+}
+.continue-card .chartRow h3 {
+  color: #101223;
+  font-size: 26px;
+  font-weight: 700;
+  overflow: hidden;
+  overflow-wrap: normal;
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+}
+#last-visited-rdr-btn {
+  margin-left: -8px;
+}
+#last-visited-message {
+  margin: 0 0 16px;
+  height: fit-content;
+  width: 100%;
+}
+#last-visited-desc {
+  max-height: 3lh;
+  overflow: hidden;
+}

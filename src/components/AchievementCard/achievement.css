@@ -1,0 +1,175 @@
+[class^='iconlstd-'] {
+  font-family: icolst !important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconlstd-Share:before {
+  content: '\f10d';
+}
+.btn-success {
+  background: #27ae60 !important;
+}
+.btn-success:hover {
+  background: #0dae51;
+}
+
+.btn {
+  font-family: SFUIDisplayRegular;
+  text-transform: unset;
+  font-size: 15px;
+  box-shadow: none;
+  padding: 8px;
+}
+.btn:active,
+.btn:hover,
+.btn:focus {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card.cstm-card {
+  border-radius: 10px;
+  border: 1px solid rgb(219, 223, 226);
+  box-shadow: 0 5px 5px #babec1;
+  overflow: hidden;
+  border-bottom: 0px;
+  margin-bottom: 2em;
+}
+.card.cstm-card .cardheader {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  justify-items: center;
+  flex: 1;
+  border-bottom: 2px solid #d6d6d6;
+}
+.card.cstm-card .cardheader .achieveHeader {
+  text-align: left;
+  font-weight: 600;
+  font-size: 18px;
+  color: #27ae60;
+  font-family: SFUIDisplayBold;
+  line-height: normal;
+  margin: 0px 0;
+  padding: 16px 15px;
+  display: flex;
+}
+@media (max-width: 992px) {
+  .card.cstm-card .cardheader .achieveHeader {
+    padding: 12px 10px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .card.cstm-card .cardheader .achieveHeader {
+    font-size: 15px;
+  }
+}
+
+.card.cstm-card.achievement-card > div:last-of-type {
+  max-height: 100%;
+  padding: 16px 16px 32px;
+}
+.card.cstm-card.achievement-card .cardheader {
+  border-bottom: none;
+  padding: 16px 16px 0;
+}
+.card.cstm-card.achievement-card .achieveHeader {
+  color: #101223;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0;
+}
+.card.cstm-card.achievement-card .cardheader {
+  flex-grow: 0;
+}
+.card.cstm-card.achievement-card {
+  height: calc(100% - 20px);
+}
+
+.card.cstm-card.achievement-card h2 {
+  align-items: center;
+}
+.card.cstm-card.achievement-card h2::before {
+  background-image: url('https://d3f06rtlkr354b.cloudfront.net/public/front/img/Achievements.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  display: inline-block;
+  height: 20px;
+  padding: 0 0 0.25em 0;
+  width: 20px;
+}
+.achievement-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.achievement-inner img {
+  height: 200px;
+  max-height: 100%;
+  max-width: 100%;
+  outline: 1px solid #999;
+  border-radius: 100%;
+  outline-offset: 4px;
+  width: 200px;
+}
+.achievement-inner {
+  gap: 16px;
+  justify-content: center;
+}
+.achievement-inner .name-award {
+  width: 100%;
+}
+.achievement-inner .name-award div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 100px;
+  justify-content: center;
+}
+.achievement-inner h3 {
+  color: #13a859;
+  font-family: 'SFUIDISPLAYBOLD', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+}
+.achiev-date {
+  margin: 24px 0 0;
+}
+.achiev-date button {
+  margin: 0;
+  width: 140px;
+}
+.achiev-date a[data-toggle='modal'] button {
+  background: #498cce;
+}
+.achiev-date a[data-toggle='modal'] button i {
+  margin-right: 0.25ch;
+}
+
+@font-face {
+  font-family: icolst;
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/icolst.eot?cbsa50);
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/icolst.eot?cbsa50#iefix)
+      format('embedded-opentype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/icolst.ttf?cbsa50)
+      format('truetype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/icolst.woff?cbsa50)
+      format('woff'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/icolst.svg?cbsa50#icolst)
+      format('svg');
+  font-weight: 400;
+  font-style: normal;
+}

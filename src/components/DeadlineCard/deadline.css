@@ -1,0 +1,73 @@
+.card.cstm-card.deadline-card > div:last-of-type {
+  max-height: 100%;
+  padding: 16px 16px 32px;
+}
+.card.cstm-card.deadline-card .cardheader {
+  border-bottom: none;
+  padding: 16px 16px 0;
+}
+.card.cstm-card.deadline-card .c-heading {
+  color: #101223;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0;
+}
+.card.cstm-card.deadline-card .cardheader {
+  flex-grow: 0;
+}
+.card.cstm-card.deadline-card {
+  height: calc(100% - 20px);
+}
+.card.cstm-card.deadline-card > div:last-of-type {
+  height: 200px;
+}
+.deadlines-chart.main-tab-scroll-part .deadlineContainer > a div {
+  align-items: flex-start;
+  border-bottom: 1px solid #d2d4da;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 64px;
+  padding: 8px 0;
+}
+.deadlines-chart.main-tab-scroll-part {
+  max-height: 100%;
+}
+.deadlines-chart.main-tab-scroll-part .deadlineContainer a h3 {
+  color: #101223;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  overflow: hidden;
+  overflow-wrap: normal;
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+  max-width: 100%;
+  width: 60ch;
+}
+.deadlines-chart.main-tab-scroll-part a p {
+  color: #999;
+}
+.deadlines-chart.main-tab-scroll-part a p {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+.deadlineContainer > a div:hover {
+  background-color: #f4f4f4;
+}
+.main-tab-scroll-part .deadlineContainer {
+  height: 100%;
+}
+
+.deadlines-chart.main-tab-scroll-part .deadlineContainer > a div::before {
+  background-image: url('https://preprlabs.org/assets/images/dashboard/calendar-normal.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  display: block;
+  height: 32px;
+  margin-right: 8px;
+  width: 32px;
+}

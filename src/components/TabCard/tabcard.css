@@ -1,0 +1,375 @@
+[class^='icon-'] {
+  font-family: icomoon !important;
+  speak: none;
+  font-style: normal;
+  font-weight: 900;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.welcomeMessage {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: 'space-between';
+  background: white;
+  padding-top: 1%;
+}
+
+.projectImage {
+  width: 100%;
+}
+.icon-friends:before {
+  content: '\e92a';
+}
+.icon-last-date-to-register-team:before {
+  content: '\e954';
+}
+.f-s-10 {
+  font-size: 10px !important;
+}
+.f-s-14 {
+  font-size: 14px !important;
+}
+.f-s-16 {
+  font-size: 16px;
+}
+.m-t-10 {
+  margin-top: 10px !important;
+}
+.f-semibold {
+  font-family: SFUIDisplaySemibold;
+}
+.f-regular {
+  font-family: SFUIDisplayRegular;
+}
+.btn-success {
+  background: #27ae60 !important;
+}
+.btn-success:hover {
+  background: #0dae51;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #27ae60;
+  text-decoration: none;
+  outline: 0;
+  opacity: 0.9;
+}
+a:focus {
+  color: #27ae60;
+  text-decoration: none;
+  outline: 0;
+  opacity: 0.9;
+}
+.btn {
+  font-family: SFUIDisplayRegular;
+  text-transform: unset;
+  font-size: 15px;
+  box-shadow: none;
+  padding: 8px;
+}
+
+.text-gray-shade-1 {
+  color: #414042;
+}
+.text-light-green {
+  color: #27ae60 !important;
+}
+div::-webkit-scrollbar {
+  width: 10px;
+}
+div::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+div::-webkit-scrollbar-thumb {
+  background: #888;
+}
+div::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.nav-tabs .nav-item .nav-link {
+  border: 0;
+  background-color: #f3f7fc;
+  color: #848092;
+  border-radius: 0;
+}
+.card.cstm-card {
+  border-radius: 10px;
+  border: 1px solid rgb(219, 223, 226);
+  box-shadow: 0 5px 5px #babec1;
+  overflow: hidden;
+  border-bottom: 0px;
+  margin-bottom: 2em;
+}
+.card.cstm-card .cardheader {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  justify-items: center;
+  flex: 1;
+  border-bottom: 2px solid #d6d6d6;
+}
+.card.cstm-card .cardheader .c-heading {
+  text-align: left;
+  font-weight: 600;
+  font-size: 18px;
+  color: #27ae60;
+  font-family: SFUIDisplayBold;
+  line-height: normal;
+  margin: 0px 0;
+  padding: 16px 15px;
+  display: flex;
+}
+.card.cstm-card.tab-card {
+  background: #fff;
+}
+.card.cstm-card.tab-card .cardheader {
+  border-bottom: none;
+}
+.card.cstm-card.tab-card .nav-tabs {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 1px solid #ddd;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  border-bottom: none;
+}
+.card.cstm-card.tab-card .nav-item {
+  text-align: center;
+  border-right: 2px solid #ddd;
+  display: flex;
+  flex: auto;
+  background: #fff;
+}
+.card.cstm-card.tab-card .nav-tabs .nav-item:nth-child(2) {
+  border-right: 0px solid #ddd;
+}
+.card.cstm-card.tab-card .nav-tabs .nav-item .nav-link {
+  background: transparent;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  flex: 1 auto;
+  justify-content: center;
+  border-bottom: 4px solid #dddddd;
+  font-family: SFUIDisplaySemibold;
+  color: #414042;
+  font-size: 14px;
+}
+.card.cstm-card.tab-card .nav-tabs .nav-item .nav-link.active {
+  border-bottom: 4px solid #239564;
+  color: #239564;
+}
+.d-card-accordion .card {
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+  margin: 0px 15px;
+}
+.d-card-accordion .card-body.d-card-body {
+  padding: 0px;
+}
+.d-card-accordion .card-body.d-card-body .img-wth-dec {
+  display: flex;
+  flex-direction: row;
+}
+.d-card-accordion .card-body.d-card-body .img-wth-dec img {
+  width: 74px;
+  height: 40px;
+  background: #ddd;
+}
+.d-card-accordion .card-body.d-card-body .img-wth-dec .p-txt {
+  font-size: 11px;
+  line-height: normal;
+  margin: 0px 0px 0px 5px;
+}
+.d-card-accordion .card-body.d-card-body hr {
+  margin: 3px 0px 3px;
+  border-top: 1px solid rgb(229 229 229);
+}
+.add-usr-project-tab {
+  min-height: 300px;
+}
+.card.cstm-card.tab-card .nav-tabs .nav-item:nth-child(2) {
+  border-right: 2px solid #ddd;
+}
+.card.cstm-card.tab-card .nav-tabs .nav-item:last-child {
+  border-right: 0px solid #ddd;
+}
+@media (max-width: 1300px) {
+  .card.cstm-card.tab-card .nav-tabs .nav-item .nav-link {
+    font-size: 13px;
+    padding: 0.5rem 5px;
+  }
+}
+@media (max-width: 1200px) {
+  .card.cstm-card.tab-card .nav-tabs .nav-item .nav-link {
+    font-size: 13px;
+    padding: 0.5rem 10px;
+  }
+}
+@media (max-width: 992px) {
+  .card.cstm-card.tab-card .nav-tabs .nav-item .nav-link {
+    font-size: 13px;
+    padding: 0.5rem 5px;
+  }
+  .card.cstm-card .cardheader .c-heading {
+    padding: 12px 10px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .cardContainer {
+    width: 100%;
+    flex-direction: column;
+  }
+  .card.cstm-card .cardheader .c-heading {
+    font-size: 15px;
+  }
+  .card.cstm-card.tab-card .nav-tabs .nav-item .nav-link {
+    font-size: 14px;
+    padding: 0.5rem 10px;
+  }
+}
+@media (max-width: 480px) {
+  .f-s-16 {
+    font-size: 14px !important;
+  }
+}
+a {
+  color: #27ae60;
+}
+
+.green_circle_number {
+  background-color: #00c851;
+  border-radius: 25px;
+  padding: 0 0.35rem;
+  user-select: none;
+  font-size: 0.75rem;
+  color: #ffffff;
+  margin-left: 0.4rem;
+}
+.tab-card a.nav-link {
+  display: unset !important;
+}
+
+.card.cstm-card .d-row .uniq.f-nav {
+  margin: 5px auto 5px;
+  line-height: normal;
+}
+.card.cstm-card .d-row .uniq.f-nav .l-nv {
+  color: #414042;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+.card.cstm-card .d-row .uniq.f-nav .l-nv .l-dt {
+  display: flex;
+  align-items: center;
+  font-family: SFUIDisplaySemibold;
+}
+.card.cstm-card .d-row .uniq.f-nav .l-nv .l-dt i {
+  font-size: 18px;
+  padding-right: 5px;
+}
+.card.cstm-card .d-row .uniq.f-nav .r-nv {
+  color: #414042;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  line-height: normal;
+  width: auto;
+  justify-content: space-between;
+  font-family: SFUIDisplaySemibold;
+}
+.card.cstm-card .d-row .uniq.f-nav .r-nv span {
+  font-size: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.card.cstm-card .d-row .uniq.f-nav .r-nv span i.icon-friends {
+  font-size: 17px;
+  margin-right: 3px;
+}
+
+@font-face {
+  font-family: icomoon;
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/icomoon.eot?nc3fi3);
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/icomoon.eot?nc3fi3#iefix)
+      format('embedded-opentype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/icomoon.ttf?nc3fi3)
+      format('truetype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/icomoon.woff?nc3fi3)
+      format('woff'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/icomoon.svg?nc3fi3#icomoon)
+      format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: SFUIDisplaySemibold;
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplaySemibold.eot);
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplaySemibold.eot)
+      format('embedded-opentype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplaySemibold.woff2)
+      format('woff2'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplaySemibold.woff)
+      format('woff'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplaySemibold.ttf)
+      format('truetype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplaySemibold.svg#SFUIDisplaySemibold)
+      format('svg');
+}
+@font-face {
+  font-family: SFUIDisplayRegular;
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayRegular.eot);
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayRegular.eot)
+      format('embedded-opentype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayRegular.woff2)
+      format('woff2'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayRegular.woff)
+      format('woff'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayRegular.ttf)
+      format('truetype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayRegular.svg#SFUIDisplayRegular)
+      format('svg');
+}
+@font-face {
+  font-family: SFUIDisplayBold;
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayBold.eot);
+  src: url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayBold.eot)
+      format('embedded-opentype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayBold.woff2)
+      format('woff2'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayBold.woff)
+      format('woff'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayBold.ttf)
+      format('truetype'),
+    url(https://d3f06rtlkr354b.cloudfront.net/public/front/fonts/SFUIDisplayBold.svg#SFUIDisplayBold)
+      format('svg');
+}

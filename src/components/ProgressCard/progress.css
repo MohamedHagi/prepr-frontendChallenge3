@@ -1,0 +1,224 @@
+.btn-success {
+  background: #27ae60 !important;
+}
+.btn-success:hover {
+  background: #0dae51;
+}
+
+.btn {
+  font-family: SFUIDisplayRegular;
+  text-transform: unset;
+  font-size: 15px;
+  box-shadow: none;
+  padding: 8px;
+}
+.btn:active,
+.btn:hover,
+.btn:focus {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card.cstm-card {
+  border-radius: 10px;
+  border: 1px solid rgb(219, 223, 226);
+  box-shadow: 0 5px 5px #babec1;
+  overflow: hidden;
+  border-bottom: 0px;
+  margin-bottom: 2em;
+}
+.card.cstm-card .cardheader {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  justify-items: center;
+  flex: 1;
+  border-bottom: 2px solid #d6d6d6;
+}
+.card.cstm-card .cardheader .c-heading {
+  text-align: left;
+  font-weight: 600;
+  font-size: 18px;
+  color: #27ae60;
+  font-family: SFUIDisplayBold;
+  line-height: normal;
+  margin: 0px 0;
+  padding: 16px 15px;
+  display: flex;
+}
+.card.cstm-card.tab-card {
+  background: #fff;
+}
+.card.cstm-card.tab-card .cardheader {
+  border-bottom: none;
+}
+.card.cstm-card.tab-card .nav-item {
+  text-align: center;
+  border-right: 2px solid #ddd;
+  display: flex;
+  flex: auto;
+  background: #fff;
+}
+@media (max-width: 992px) {
+  .card.cstm-card .cardheader .c-heading {
+    padding: 12px 10px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .card.cstm-card .cardheader .c-heading {
+    font-size: 15px;
+  }
+}
+a {
+  color: #27ae60;
+}
+
+.chartRow {
+  align-items: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  gap: 16px 70px;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+}
+.chartRow ul li span:first-child {
+  align-items: center;
+  display: flex;
+}
+.chartRow ul li span:last-of-type {
+  max-width: 80px;
+  overflow: hidden;
+  overflow-wrap: normal;
+  text-overflow: ellipsis;
+}
+.chartRow ul li span:first-child::before {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  display: inline-block;
+  height: 28px;
+  margin-right: 12px;
+  width: 28px;
+}
+.my-progress-card .tab-content {
+  max-height: 100%;
+  padding: 16px 16px 32px;
+}
+.card.cstm-card.my-progress-card .cardheader {
+  border-bottom: none;
+  padding: 16px 16px 0;
+}
+.card.cstm-card.my-progress-card .c-heading {
+  color: #101223;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0;
+}
+.my-progress-card .challeng-chart {
+  height: 160px;
+  width: 160px;
+}
+.card.cstm-card.my-progress-card .cardheader {
+  flex-grow: 0;
+}
+.card.cstm-card.my-progress-card {
+  height: calc(100% - 20px);
+}
+.placeholder-image {
+  display: block;
+  margin: auto auto 24px;
+  max-height: 128px;
+  max-width: 128px;
+  object-fit: contain;
+}
+/*! CSS Used from: Embedded */
+.tab-card a.nav-link {
+  display: unset !important;
+}
+.my-progress-card ul {
+  color: #404040;
+  font-size: 16px;
+  font-weight: 400;
+  flex-grow: 0.25;
+}
+.my-progress-card .chartRow ul li {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.my-progress-card ul li:last-of-type {
+  margin-bottom: 0;
+}
+.card.my-progress-card ul.nav {
+  border: 1px solid #d2d4da;
+}
+.card.my-progress-card ul.nav li.nav-item {
+  border-bottom: 2px solid #d2d4da;
+  border-right: 1px solid #d2d4da;
+  transition: border-bottom 0.2s ease;
+}
+.card.my-progress-card ul.nav li.nav-item a {
+  color: #d2d4da;
+  font-size: 12px;
+  padding: 8px !important;
+  width: 100%;
+}
+.card.my-progress-card ul.nav li.nav-item a.active {
+  color: #27ae60;
+}
+.card.my-progress-card ul.nav li.nav-item:has(a.active) {
+  border-bottom: 2px solid #27ae60;
+}
+.my-progress-card .chartRow .challeng-chart {
+  position: relative;
+}
+.my-progress-card .chartRow .challeng-chart > p {
+  font-size: 20px;
+  font-weight: 400;
+  height: fit-content;
+  inset: 0;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+}
+.my-progress-card .chartRow .challeng-chart > p > span {
+  color: #404040;
+  display: block;
+  line-height: 1;
+}
+.my-progress-card .chartRow .challeng-chart > p > span > span {
+  font-family: 'Poppins', inherit;
+  font-size: 30px;
+  font-weight: 700;
+  color: #27ae60;
+}
+
+#root
+  > div
+  > div
+  > div.tab-content
+  > div.challengeTab.tab-pane.fade.show.active
+  > div
+  > div
+  > p {
+  color: #27ae60;
+}
+
+.challengeTab .chartRow ul li:nth-child(1) span:first-child::before {
+  background-image: url(https://preprlabs.org/assets/images/dashboard/challenge-leaf-1.svg);
+}
+.challengeTab .chartRow ul li:nth-child(2) span:first-child::before {
+  background-image: url(https://preprlabs.org/assets/images/dashboard/challenge-leaf-2.svg);
+}
+.challengeTab .chartRow ul li:nth-child(3) span:first-child::before {
+  background-image: url(https://preprlabs.org/assets/images/dashboard/challenge-leaf-3.svg);
+}
+.challengeTab .chartRow ul li:nth-child(4) span:first-child::before {
+  background-image: url(https://preprlabs.org/assets/images/dashboard/challenge-leaf-4.svg);
+}

@@ -1,0 +1,285 @@
+.form-control {
+  border-bottom: 1px solid #e0e7ef !important;
+}
+.divider {
+  border-bottom: 1px solid #dbdfe2;
+  padding-bottom: 20px;
+  margin: 0 auto 20px;
+  height: 20px;
+  width: 97.5%;
+}
+
+.form-control:focus,
+.form-control:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #ced4da !important;
+}
+.home-dashboard .h-dashboard-innr .form-control {
+  font-family: SFUIDisplayRegular;
+  font-size: 16px;
+  height: auto;
+  min-height: 50px;
+  border-radius: 2px;
+  color: rgb(159, 159, 159);
+  border: 1px solid rgb(219, 223, 226) !important;
+}
+.home-dashboard .h-dashboard-innr select {
+  appearance: none;
+  background: url('https://prepr-test-bucket.s3.amazonaws.com/public/front/img/down-arrow.png')
+    calc(100% - 20px) center no-repeat rgb(255, 255, 255) !important;
+}
+.card.cstm-card {
+  border-radius: 10px;
+  border: 1px solid rgb(219, 223, 226);
+  box-shadow: 0 5px 5px #babec1;
+  overflow: hidden;
+  border-bottom: 0px;
+  margin-bottom: 2em;
+}
+.card.cstm-card .cardheader {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  justify-items: center;
+  flex: 1;
+  border-bottom: 2px solid #d6d6d6;
+}
+.card.cstm-card .cardheader .leaderBoardHeader {
+  text-align: left;
+  font-weight: 600;
+  font-size: 18px;
+  color: #27ae60;
+  font-family: SFUIDisplayBold;
+  line-height: normal;
+  margin: 0px 0;
+  padding: 16px 15px;
+  display: flex;
+}
+.card.cstm-card .cardheader .btn.btn-cstm {
+  padding: 8px 20px;
+  border-radius: 3px;
+  margin: 0px 15px 0px 0px;
+  font-size: 13px;
+}
+.card.cstm-card.tab-card {
+  background: #fff;
+}
+.card.cstm-card.tab-card .cardheader {
+  border-bottom: none;
+}
+.tbl-padd-5 tr td {
+  padding: 5px;
+}
+@media (max-width: 992px) {
+  .form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .card.cstm-card .cardheader .leaderBoardHeader {
+    padding: 12px 10px;
+    font-size: 15px;
+  }
+  .card.cstm-card .cardheader .btn.btn-cstm {
+    padding: 5px 15px;
+  }
+}
+@media (max-width: 767px) {
+  .home-dashboard .h-dashboard-innr .form-control {
+    margin-bottom: 15px;
+  }
+  .card.cstm-card .cardheader .leaderBoardHeader {
+    font-size: 15px;
+  }
+  .card.cstm-card .cardheader .btn.btn-cstm {
+    padding: 4px 15px;
+  }
+}
+a {
+  color: #27ae60;
+}
+@media only screen and (max-width: 768px) {
+  .linear-background {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background-size: 1000px 104px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+  }
+}
+.linear-background {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background: #f6f7f8;
+  background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+  background-size: 1000px 104px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+.leaderboardCard {
+  font-family: 'SFUIDisplayRegular';
+  padding: 0 15px 0 0;
+}
+.card.leaderboardCard .table-responsive {
+  max-height: 365px;
+  padding-right: 2px;
+  overflow: clip auto;
+}
+.card.cstm-card.leaderboardCard .leaderBoardHeader {
+  font-size: 18px;
+}
+.leaderboardCard .leaderBoardHeader i {
+  padding-left: 0.5em;
+}
+.card.cstm-card.leaderboardCard .cardheader {
+  border: none;
+}
+.leaderboardCard .filterHead {
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 8px;
+  color: #8b8b8b;
+}
+.leaderboardCard #dropFiltersList {
+  padding: 0;
+}
+.leaderboardCard #dropFiltersList .row {
+  margin: 0;
+}
+.leaderboardCard #dropFiltersList .col-md-3 {
+  padding-left: 15px;
+}
+.card.leaderboardCard select.form-control {
+  -webkit-appearance: menulist;
+  -moz-appearance: menulist;
+  -ms-appearance: menulist;
+  -o-appearance: menulist;
+  appearance: menulist;
+  min-height: 32px;
+}
+#leaderboardData tbody tr {
+  color: black;
+  font-size: 16px;
+  height: 48px;
+}
+#leaderboardData tbody td {
+  height: 40px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+#leaderboardData tbody img {
+  height: 35px;
+  margin-right: 30.5px;
+  width: 35px;
+  border-radius: 50%;
+}
+#leaderboardData tr.currentUser td {
+  background: #bce6ce;
+  border-collapse: collapse;
+}
+#leaderboardData tr.currentUser td:first-of-type {
+  border-radius: 6px 0 0 6px;
+}
+#leaderboardData tr.currentUser td:last-of-type {
+  border-radius: 0 6px 6px 0;
+}
+#leaderboardData tr.currentUser td {
+  font-weight: 600;
+}
+#leaderboardData tr.currentUser img {
+  border-radius: 50%;
+  outline: 2px solid #27ae60;
+}
+#leaderboardData thead th {
+  align-items: center;
+  color: #414042;
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 0 0 9px 0;
+}
+#leaderboardData thead th:nth-of-type(1),
+#leaderboardData tr td:nth-of-type(1) {
+  width: 75px;
+}
+#leaderboardData tbody td:nth-of-type(1) div {
+  background: #8b8b8b;
+  border-radius: 13px;
+  color: white;
+  font-weight: 600;
+  height: 26px;
+  line-height: 26px;
+  margin: auto;
+  min-width: 26px;
+  padding: 0 8px;
+  width: min-content;
+}
+#leaderboardData tbody tr:nth-of-type(1) td:nth-of-type(1) div {
+  background: #27ae60;
+}
+#leaderboardData tbody tr:nth-of-type(2) td:nth-of-type(1) div {
+  background: #ffeb39;
+  color: #7a6e00;
+}
+#leaderboardData tbody tr:nth-of-type(3) td:nth-of-type(1) div {
+  background: #d9d9d9;
+  color: #787878;
+}
+#leaderboardData tbody tr:nth-of-type(4) td:nth-of-type(1) div {
+  background: #edbea3;
+  color: #ad5625;
+}
+#leaderboardData {
+  margin-top: 18px;
+  padding-left: 15px;
+}
+@media only screen and (max-width: 768px) {
+  #leaderboardData thead th:nth-of-type(1),
+  #leaderboardData tr td:nth-of-type(1) {
+    width: 25px;
+  }
+  #leaderboardData tr td {
+    max-width: 256px;
+  }
+  #leaderboardData tbody img {
+    height: 24px;
+    margin-right: 12px;
+    width: 24px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .filterHead-padding {
+    padding-top: 28%;
+  }
+}
+.tableAlign {
+  box-shadow: #000000;
+  text-align: center !important;
+}
+.tableView {
+  border: 0px solid #d2d4da;
+  border-radius: 10%;
+}
+div::-webkit-scrollbar {
+  width: 3px !important;
+}
+div::-webkit-scrollbar-track {
+  background: none !important;
+}
+#loadLinear {
+  display: none;
+}
