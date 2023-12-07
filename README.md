@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# React Application - PreprLabs Challenge 3
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Welcome to the PreprLabs Dashboard/Create Project Page Clone! This project focuses on creating a web dashboard that serves as a reporting interface to monitor website performance. The dashboard allows users to track various metrics such as visitors, page views, and online conversions, providing valuable insights across different contexts such as digital marketing, social media, SEO, UX, and eCommerce. As well as the create project page.
 
-In the project directory, you can run:
+## Objective
 
-### `npm start`
+The primary objective of this project is to recreate the [PreprLabs](https://preprlabs.org/) user home and create project pages using React. The application should enable users to create a project and display it on the dashboard. Emphasizing a responsive design, the project aims to implement key click events and mouseover effects for an interactive user experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Responsive Design**: The application is designed to adapt to various screen sizes and resolutions, ensuring optimal user experience on different devices.
 
-### `npm test`
+- **Create Project**: Users can create a project with a focus on 10 fields, including a cover image, on the [createProject](https://preprlabs.org/createProject/0) page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Dashboard Interaction**: The dashboard page includes interactive elements such as mouseover effects. Users can click on buttons to create a project, set a cover image, and access project details.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**: The application is built using the React library, providing a modular and efficient component-based structure.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **CSS**: Styling is achieved using CSS, delivering a clean and visually appealing layout.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+To run the application locally, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository to your local machine.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    git clone https://github.com/MohamedHagi/prepr-frontendChallenge3.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navigate to the project directory.
 
-## Learn More
+    ```bash
+    cd prepr-frontendChallenge3
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install dependencies.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```bash
+    npm install
+    ```
 
-### Code Splitting
+4. Run the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ```bash
+    npm start
+    ```
 
-### Analyzing the Bundle Size
+    The application will be accessible at http://localhost:3000/ by default.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Usage
 
-### Making a Progressive Web App
+Explore the recreated user home and create project pages by interacting with the buttons on the dashboard. Create a project, set a cover image, and navigate to the project details page.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Note
 
-### Advanced Configuration
+- Dark mode preferences do not persist upon browser refresh, adhering to the specified requirements.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Author
 
-### Deployment
+Mohamed Hagi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to reach out with any questions or feedback. Happy coding!
